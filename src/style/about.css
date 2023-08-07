@@ -1,0 +1,59 @@
+ body{
+
+     background-color: rgb(240, 231, 231);
+ }
+.aboutt{
+   
+    margin: 10px;
+    padding: 10px;
+    width: 55%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    height:80vh;
+   
+}
+.section{
+    display: flex;
+}
+.title h1{
+    color: #3e497a;
+    
+    color: #ea4c12;
+    
+    
+}
+.title p{
+    align-items: center;
+}
+
+.topic{
+    color: #3e497a;
+}
+.thanks{
+    color: #2e0a57;
+    font-size: 45px;
+}
+
+ .photo img  {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #050712;
+    margin-left: 100px;
+    display: flex;
+    align-items:end;
+    justify-content:end;
+    margin-top: 30%;
+    margin-left: 50%;
+        
+       
+}
+.contacts span{
+    font-size: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #3e497a;
+    font-weight: 650;
+    margin: 5px;
+    
+
+
+}

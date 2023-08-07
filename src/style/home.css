@@ -1,0 +1,62 @@
+.home{
+    width: 100%;
+    align-items: center;
+    /* display: flex;
+    flex-direction: column; */
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    color: #3e497a;
+}
+
+.about{
+  background-color: rgb(44, 37, 77);
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+    height: calc(100vh - 100px);
+}
+.about h2{
+    font-size: 80px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #e9d35b;
+    height: 50px;
+}
+.prompt p{
+    color:  #a6a8ac;
+}
+.prompt svg{
+    color:  #a6a8ac;
+    font-size: 40px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+}
+.skills h1 {
+    color: #3e497a;
+  }
+  
+  .skills .list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+  }
+  .list p {
+    font-size: 20px;
+  }
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
