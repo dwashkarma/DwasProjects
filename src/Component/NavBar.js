@@ -8,6 +8,9 @@ export default function NavBar() {
     <>
     <div className='tooglebar'>
        <img src={profileImage}alt='Profile' className='pngfile'/>
+       <span>
+        <h2>Dwas</h2>
+        </span>
         {/* <PersonIcon/> */}
        
       <div className='links'>
